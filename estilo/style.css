@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -8,10 +10,29 @@ body {
 
 }
 
-main {
-    background-color: white;
-    width: 500px;
-    margin: auto;
+
+nav#cabecalho {
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    width: 100%;
+    padding: 15px;
+    color: azure;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    display: inline-block;
+    padding-right: 570px;
+    font-size: 25px;
+}
+ul#menu {
+    display: block;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#menu li {
+    display: inline-flex;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
